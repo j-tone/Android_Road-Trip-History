@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="26dp"
+    android:text="A PLACE WITH INFO"
+    android:id="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I like this place. I am worried that Five Guy's proximity to my job is far too close. Far too close. I walk in to this place at lunch hour and observed the ordering line...It was moving quick and I was impressed my their communication with each other. It was like a well oiled machine back there. A guy taking orders, another guy assisting, another assembling the burger, another bagging, etc. They have the self serve drink and condiments, which I love. I am a kamikaze drink maker. I like to mix the tea with a bit of lemonade.
+
+I got the bacon burger(made all the way: lettuce, tomato, Mayo, Ketchup, mustard, Grilled onion). the bacon was crisp and plentiful on a bun with 2 patties. It was HUGE! I barely could get it in my mouth. The patties were fresh and juicy. I am really impressed with this spot. Quality hamburgers for reasonable prices. SWEET. I got the Cajun fries and they have malt vinegar for dipping'. I love the peanuts to ease the waiting time.
+
+    I have a wonderful experience and home you all will break those diets to give these burgers a chance. Thank me later."
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
