@@ -10,7 +10,7 @@
     android:layout_height="wrap_content"
     android:textSize="26dp"
     android:text="A PLACE WITH INFO"
-    android:id="@+id/textView" />
+    android:id="@+id/textdesc" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +19,6 @@
 I got the bacon burger(made all the way: lettuce, tomato, Mayo, Ketchup, mustard, Grilled onion). the bacon was crisp and plentiful on a bun with 2 patties. It was HUGE! I barely could get it in my mouth. The patties were fresh and juicy. I am really impressed with this spot. Quality hamburgers for reasonable prices. SWEET. I got the Cajun fries and they have malt vinegar for dipping'. I love the peanuts to ease the waiting time.
 
     I have a wonderful experience and home you all will break those diets to give these burgers a chance. Thank me later."
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textdesc"
         android:layout_alignParentEnd="true" />
 </RelativeLayout>

@@ -12,21 +12,21 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.util.ArrayList;
+
 /**
  * Created by Justin on 5/7/2016.
  */
 public class Locations_Section extends ListFragment {
+    public RelatedLocations locations;
+
     @Override
     public void onActivityCreated(Bundle bundle){
         super.onActivityCreated(bundle);
         String[] example_names = new String[] {"Whitworth University", "My House on Ivanhoe", "Usk, Washington"};
         String[] example_addrs = new String[] {"300 W Hawthorne Rd", "9906 N Ivanhoe Rd", "Middle of nowhere"};
-        int[] example_pics = new int[] {R.drawable.ic_map, R.drawable.ic_map, R.drawable.ic_map};
-
-        LocationListAdapter adapter = new LocationListAdapter(getActivity(), example_names, example_addrs, example_pics);
-
-//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, example_names);
-        setListAdapter(adapter);
+//        LocationListAdapter adapter = new LocationListAdapter(getActivity(), locations.getName(), locations.getDesc());
+//        setListAdapter(adapter);
     }
 
     @Override
